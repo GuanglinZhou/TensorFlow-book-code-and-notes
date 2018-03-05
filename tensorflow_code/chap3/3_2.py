@@ -13,8 +13,6 @@ print(result)
 print(result.get_shape())
 
 with tf.Session() as sess:
-    sess.run(result)
-
-sess=tf.Session()
-with sess.as_default():
-    print(result.eval())
+    print(sess.run(result))
+with tf.Session() as sess1:
+    print(sess1.run(result))

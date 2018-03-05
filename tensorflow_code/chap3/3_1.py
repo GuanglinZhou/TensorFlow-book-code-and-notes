@@ -14,7 +14,6 @@ print(a.graph)
 print(tf.get_default_graph())
 
 print('\n\n\n\n')
-
 g1 = tf.Graph()
 with g1.as_default():
     v = tf.get_variable(
