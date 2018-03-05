@@ -58,7 +58,7 @@ TensorFlow程序分为两阶段，第一阶段是定义计算图中所有的计�
 
 ----------
 **TensorFlow实现三层全连接神经网络**
-![](https://github.com/GuanglinZhou/TensorFlow-book-code-and-notes/raw/master/PNG/1520216888759.png)
+![](https://github.com/GuanglinZhou/TensorFlow-book-code-and-notes/raw/master/IMG/1520216888759.png)
 三层神经网络，输入层是个1*2的矩阵$X$，输入层到隐藏层是个2*3的矩阵$W_1$，隐藏层到输出层是个3*1的矩阵$W_2$，输出层得到一个实值。
 输入层一般使用常量`tf.constant`来表示，参数矩阵$W$使用变量来表示`tf.Variable`
 > TensorFlow 中最基本的单位是常量（Constant）、变量（Variable）和占位符（Placeholder）。常量定义后值和维度不可变，变量定义后值可变而维度不可变。在神经网络中，变量一般可作为储存权重和其他信息的矩阵，而常量可作为储存超参数或其他结构信息的变量。占位符（Placeholder）顾名思义，先占个位置，在运行时再通过feed_dict{}给这个占位符“喂”值。
