@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Date    : 2018-03-04 20:07:10
 # @Author  : guanglinzhou (xdzgl812@163.com)
+# @Link    : https://github.com/GuanglinZhou/TensorFlow-book-code-and-notes
 
 # 三层全连接神经网络解决二分类问题
 import tensorflow as tf

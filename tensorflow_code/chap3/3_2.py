@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Date    : 2018-03-04 20:07:10
 # @Author  : guanglinzhou (xdzgl812@163.com)
-
+# @Link    : https://github.com/GuanglinZhou/TensorFlow-book-code-and-notes
 
 import tensorflow as tf
 
